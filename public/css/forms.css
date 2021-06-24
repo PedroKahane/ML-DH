@@ -62,8 +62,13 @@ padding: 10px 50px;
     align-items: center;
     margin:15px 30px;
 }
-select {
+select{
     border-radius: 15px;
+    margin-left: 15px;
+}
+.date{
+    border: none;
+    border-radius: 5px;
     margin-left: 15px;
 }
 .title {
