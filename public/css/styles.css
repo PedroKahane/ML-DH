@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    width:100vw
+}
+.bold {
+    font-weight: bold;
+}
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+   }
+   
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.banner_img{
+    width: 100vw;
+    margin-bottom: 30px;
+}
+.fa-bars{
+    font-size: 1em;
+}
+main {
+    width: 100vw;
+    background-color: #ebebeb;
+}
+article{
+    width: 90vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #ebebeb;
+}
+
+.titular{
+    font-size: 24px;
+    color: #666;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.imagen-article{
+    width: 100%;
+}
+.figure_producto {
+    padding: 15px;
+    border-bottom: 2px solid #ebebeb;
+}
+.descuento {
+    color:#39b54a;
+    font-size: 16px;
+}
+.descripcion {
+    position: relative;
+    padding: 15px;
+}
+.fa-truck {
+    color: #39b54a;
+}
+.precio {
+    font-size: 18px;
+    width: 30%;
+}
+.descuento{
+    width: 70%;
+    text-align: center;
+}
+.producto {
+    margin-top: 15px;
+    font-size: 16px;
+    display: none;
+    color: #666;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.flex {
+    display: flex;
+    padding: 15px 0px;
+}
+.botones{
+    justify-content: center;
+}
+/*Tablet*/
+@media (min-width:361px) {
+    article {
+        width: 44vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .producto{
+        display: unset;
+
+    }
+       
+    .burguer{
+        display: none;
+    }
+    .flex_tablet_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .flex_column {
+        flex-direction: row;
+    }
+    .menues {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .flex_tablet_header {
+        flex-wrap: unset;
+    }
+    .center {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+    }
+    .logo{
+        width: 22vw;
+    }
+    .buscar{
+        width: unset;
+    }
+    .text_icon {
+        padding: 0px 30px;
+    }
+    .li_sin_Icon{
+        padding: 5px;
+    }
+}
+/*Desktop*/
+@media (min-width:769px) {
+    article {
+        width: 22vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .li_sin_Icon{
+        padding: 5px 10px;
+    }
+    .icon_left {
+        padding: 5px 10px;
+    }
+    .text_icon{
+        width: unset;
+    }
+    .buscar{
+        width: 400px;
+    }
+    .center {
+        margin: 0px;
+    }
+    .icon_left li {
+        width: unset;
+        margin-right: 2px;
+    }
+}

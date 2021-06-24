@@ -1,0 +1,113 @@
+.register {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 80px;
+    background-color: #e2dfdf;
+    margin: 40px;
+}
+.register input[type="text"] {
+    border-radius: 10px;
+    padding: 18px;
+    margin: 15px 0px;
+    border: none;
+    width: 100%;
+}
+.chekbox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 15px 30px;
+}
+.fondo_registrate{
+    background-color: #ebebeb;
+}
+.input_foto {
+    margin: 15px 0px;
+    width: 100%;
+}
+input[type="password"] {
+    padding: 9px 17px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    border: none;
+    width: 100%;
+}
+.submit {
+ padding: 10px 50px;
+ text-align: center;
+ background-color: #03264C;
+ margin: 10px;
+ border-radius: 30px;
+ border:none;
+ color: #fff;
+ font-weight: bold;
+}
+.botones {
+    display: flex;
+}
+.borrar {
+padding: 10px 50px;
+ text-align: center;
+ background-color: #df4125;
+ margin: 10px;
+ border-radius: 30px;
+ border:none;
+ color: #fff;
+ font-weight: bold; 
+}
+.select {
+    display: flex;
+    align-items: center;
+    margin:15px 30px;
+}
+select {
+    border-radius: 15px;
+    margin-left: 15px;
+}
+.title {
+    font-size: 15px;
+    font-weight: bold;
+}
+.check {
+    margin: 7px;
+}
+.titulo_registrate{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.archivo {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 30px;
+}
+.check_label {
+    margin-bottom: 15px;
+}
+.login {
+    padding: 8px 20px;
+    width: 80%;
+    text-align: center;
+    background-color: #03264C;
+    margin: 30px 10% 10px 10%;
+    border-radius: 30px;
+    border:none;
+    color: #fff;
+    font-weight: bold;
+}
+.login_titulo {
+    margin-bottom: 20px;
+}
+@media (min-width:361px) {
+    .register {
+        width: 70vw;
+    }
+}
+/*Desktop*/
+@media (min-width:769px) { 
+    .register{
+        width: 45vw;
+    }
+}

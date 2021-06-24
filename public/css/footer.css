@@ -1,0 +1,32 @@
+.footer_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 50px;
+}
+.size{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+.title_footer{
+    font-size: 16px
+    ;
+}
+.content_footer{
+    font-size: 12px;
+    text-align: center;
+}
+footer {
+    width: 100vw;
+}
+
+footer{
+    padding: 25px 5vw;
+    width: 100vw;
+}
+.footer_final {
+    padding-top: 20px;
+    text-align: center;
+}
