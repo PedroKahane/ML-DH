@@ -43,11 +43,11 @@ rel="stylesheet">
             </ul>
             <ul class="flex_column ">
                 <div class="icon_left">
-                    <li class="cuerpos_de_texto" ><a  href="/register">Creá tu cuenta</a></li>
+                    <li class="cuerpos_de_texto" ><a  href="/login">Creá tu cuenta</a></li>
                     <i class="far fa-address-card"></i>
                 </div>
                 <div class="icon_left">
-                    <li class="cuerpos_de_texto" ><a  href="/login">Ingresá</a></li>
+                    <li class="cuerpos_de_texto" ><a  href="/register">Ingresá</a></li>
                     <i class="fas fa-sign-in-alt"></i>
                 </div>
                 <div class="icon_left">
@@ -66,13 +66,13 @@ rel="stylesheet">
         <section class="fondo_registrate">
             <form class="register" action="" method="post">
                 <p class="titulo_registrate">Formulario de registro:</p>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre:">
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido:">
-                <input type="text" id="user" name="user" placeholder="Nombre de usuario:">
-                <input type="text" id="domicilio" name="domcilio" placeholder="Domicilio:">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre:" required>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido:" required>
+                <input type="text" id="user" name="user" placeholder="Nombre de usuario:" required>
+                <input type="text" id="domicilio" name="domcilio" placeholder="Domicilio:" required>
                 <div class="select">
                 <label for="perfil" class="title">Perfil de usuario:</label>
-                    <select name="perfil">
+                    <select name="perfil" required>
                         <option value="1">Comprador</option>
                         <option value="1">Vendedor</option>
                     </select>
@@ -112,10 +112,10 @@ rel="stylesheet">
                 </div>
                 <div class="archivo">
                     <label for="foto" class="title">Ingresa una foto tuya</label>
-                    <input class="input_foto" type="file" name="foto">
+                    <input class="input_foto" type="file" name="foto" >
                 </div>
-                <input type="password" name="contraseña" placeholder="Contraseña:">
-                <input type="password" name="confirmarContraseña" placeholder="Confirmar contraseña">
+                <input type="password" name="contraseña" placeholder="Contraseña:" required>
+                <input type="password" name="confirmarContraseña" placeholder="Confirmar contraseña" required>
                 <div class="botones">
                     <button class="submit" type="submit">Enviar</button>
                     <button class="borrar" type="reset">Borrar</button>

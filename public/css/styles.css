@@ -66,6 +66,7 @@ article{
 .descuento {
     color:#39b54a;
     font-size: 16px;
+    text-align: left;
 }
 .descripcion {
     position: relative;
@@ -76,11 +77,7 @@ article{
 }
 .precio {
     font-size: 18px;
-    width: 30%;
-}
-.descuento{
-    width: 70%;
-    text-align: center;
+    margin-right: 20px;
 }
 .producto {
     margin-top: 15px;
@@ -96,6 +93,7 @@ section {
 }
 .flex {
     display: flex;
+    align-items: center;
     padding: 15px 0px;
 }
 .botones{
@@ -107,13 +105,19 @@ section {
         width: 44vw;
         margin-left: 3vw;
         margin-right: 3vw;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: .8ms ease;
+        -moz-transition: .8s ease; /* Firefox */
+        -webkit-transition: .8s ease; /* Chrome - Safari */
+        -o-transition: .8s ease; /* Opera */
     }
-    .producto{
+    article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transform:rotateY(360deg);
+    }
+    article:hover .producto{
         display: unset;
 
     }
-       
     .burguer{
         display: none;
     }

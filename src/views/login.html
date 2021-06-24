@@ -43,11 +43,11 @@ rel="stylesheet">
             </ul>
             <ul class="flex_column ">
                 <div class="icon_left">
-                    <li class="cuerpos_de_texto" ><a  href="/register">Creá tu cuenta</a></li>
+                    <li class="cuerpos_de_texto" ><a  href="/login">Creá tu cuenta</a></li>
                     <i class="far fa-address-card"></i>
                 </div>
                 <div class="icon_left">
-                    <li class="cuerpos_de_texto" ><a  href="/login">Ingresá</a></li>
+                    <li class="cuerpos_de_texto" ><a  href="/register">Ingresá</a></li>
                     <i class="fas fa-sign-in-alt"></i>
                 </div>
                 <div class="icon_left">
@@ -66,8 +66,8 @@ rel="stylesheet">
         <section class="fondo_registrate">
             <form class="register" action="" method="POST">
                 <p class="titulo_registrate login_titulo">Ingresa a tu cuenta:</p>
-                <input type="text" name="user" placeholder="Nombre de usuario" id="user" class="input_login">
-                <input type="password" name="contraseña" placeholder="Ingresa tu contraseña" id="contraseña" class="input_login">
+                <input type="text" name="user" placeholder="Nombre de usuario" id="user" class="input_login" required>
+                <input type="password" name="contraseña" placeholder="Ingresa tu contraseña" id="contraseña" class="input_login" required>
                 <button class="login" type="submit" class="submit_login" name="ingresar">Ingresar</button>
             </form>
         </section>
